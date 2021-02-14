@@ -1,0 +1,11 @@
+.container {
+    grid-template-columns: 197px 570px 60px 570px 197px;
+}
+
+.landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/open_kitchen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
