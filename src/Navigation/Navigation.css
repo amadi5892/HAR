@@ -1,0 +1,9 @@
+.nav {
+    margin-left: 930px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 620px;
+}

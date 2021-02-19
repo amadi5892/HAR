@@ -1,0 +1,17 @@
+.nav-item {
+    
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+    color: red;
+    cursor: pointer;
+}

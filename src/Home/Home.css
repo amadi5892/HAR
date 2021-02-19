@@ -1,6 +1,5 @@
-.container {
-    grid-template-columns: 197px 570px 60px 570px 197px;
-}
+/* Scree Resolution: 1920
+    Grid: 310 620 60 620 310 */
 
 .landing {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/open_kitchen.jpg');
