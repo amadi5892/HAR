@@ -1,0 +1,7 @@
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    margin-left: 310px;
+}

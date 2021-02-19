@@ -9,8 +9,8 @@ Red - ff0000
 
 Fonts 
 
-font-family: 'Ballet', cursive;
-font-family: 'Cormorant Garamond', serif;*/
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;*/
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* BASIC SETUP */
@@ -25,7 +25,7 @@ font-family: 'Cormorant Garamond', serif;*/
 html,
 body {
   color: #000000;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-rendering: optimizeLegibility;
