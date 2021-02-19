@@ -10,6 +10,7 @@ class Home extends Component {
             <div className="container">
                 <div className="landing">
                     <NavigationBar />
+                    <h1 className="landing-msg">Where Dream Homes <br></br>Do Come True</h1>
                 </div>
             </div>
         )

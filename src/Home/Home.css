@@ -13,3 +13,23 @@
     position: fixed;
     width: 100%;
 }
+
+.landing-msg::before {
+    display: block;
+    height: 2px;
+    background-color: rgb(172, 168, 168);
+    content: " ";
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.landing-msg {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 400px;
+    top: 650px;
+    color: rgb(172, 168, 168);
+    text-align: center;
+}
