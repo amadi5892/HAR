@@ -1,10 +1,55 @@
 .service-container {
     width: 100%;
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
-.organize {
-    display: flex;
-    flex-direction: row;
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    margin-left: 310px;
+}
+
+.card-1 {
+    width: 620px;
+    height: 750px;
+    margin: 50px 0 0 310px;
+}
+
+.sub-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.service-para {
+    width: 100%;
+    height: 100px;
+    font-size: 80%;
+    margin-top: 15px;
+}
+
+.service-btn {
+    width: 225px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(150, 78, 78);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 17px;
+    transition: background-color 0.3s;
+}
+
+.service-btn:hover,
+.service-btn:active {
+    background-color: rgb(150,78,78);
+}
+
+.service-img {
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
 }
