@@ -9,6 +9,12 @@
     flex-direction: row;
 }
 
+.loan-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
 .invest-card {
     width: 620px;
     height: 375px;
@@ -17,8 +23,8 @@
 
 .invest-img {
     width: 620px;
-    height: 325px;
-    margin: 25px 0 0 60px;
+    height: 350px;
+    margin: 10px 0 0 60px;
 }
 
 .invest-heading {
@@ -33,4 +39,22 @@
     font-size: 80%;
     width: 75%;
     height: 100px;
+}
+
+.invest-btn {
+    width: 225px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: transparent;
+    border: 2px solid rgb(150, 78, 78);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 17px;
+    transition: background-color 0.3s;
+}
+
+.invest-btn:hover,
+.invest-btn:active {
+    background-color: rgb(150,78,78);
+    cursor: pointer;
 }
