@@ -12,10 +12,21 @@
     margin-left: 310px;
 }
 
+.service-cards {
+    display: flex;
+    flex-direction: row;
+}
+
 .card-1 {
     width: 620px;
     height: 750px;
     margin: 50px 0 0 310px;
+}
+
+.card-2 {
+    width: 620px;
+    height: 750px;
+    margin: 50px 0 0 60px;
 }
 
 .sub-heading {
