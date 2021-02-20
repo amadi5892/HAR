@@ -57,6 +57,7 @@
 .service-btn:hover,
 .service-btn:active {
     background-color: rgb(150,78,78);
+    cursor: pointer;
 }
 
 .service-img {

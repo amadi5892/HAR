@@ -1,0 +1,36 @@
+.invest-container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.invest-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.invest-card {
+    width: 620px;
+    height: 375px;
+    margin-left: 310px;
+}
+
+.invest-img {
+    width: 620px;
+    height: 325px;
+    margin: 25px 0 0 60px;
+}
+
+.invest-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.invest-para {
+    margin-top: 15px;
+    font-size: 80%;
+    width: 75%;
+    height: 100px;
+}
