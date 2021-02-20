@@ -3,3 +3,8 @@
     height: 100vh;
     padding-top: 150px;
 }
+
+.organize {
+    display: flex;
+    flex-direction: row;
+}
