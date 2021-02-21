@@ -35,3 +35,50 @@
 .contact-list {
     margin-bottom: 20px;
 }
+
+.contact-form {
+    width: 620px;
+    height: auto;
+    margin-top: 40px;
+}
+
+form {
+    transition: all 0.4s;
+    display: flex;
+    flex-direction: column; 
+}
+
+.form-control {
+    width: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(172, 168, 168);
+    color: rgb(172, 168, 168);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 40px;
+}
+
+form .submit {
+    background: transparent;
+    border: 2px solid rgb(172, 168, 168);
+    color: rgb(172, 168, 168);
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 225px;
+    margin: 20px 0 0 85px;
+    font-family: 'Playfair Display', serif;
+}
+
+form .submit:hover,
+form .submit:active {
+    background: rgb(172, 168, 168);
+    color: rgb(150,78,78);
+    cursor: pointer;
+}

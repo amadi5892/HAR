@@ -14,12 +14,16 @@ const footer = (props) => (
         </div>
         <div className="message-info">
             <h3 className="contact-heading">Leave Us A Message</h3>
-            <form>
-                <input placeholder="Name"></input>
-                <input placeholder="Phone"></input>
-                <input placeholder="Email"></input>
-                <textarea placeholder="How Can We Help?"></textarea>
-            </form>
+            <div className="contact-form">
+                <form id="contact-form" method="post" action="">
+                    <input name="name" type="text" className="form-control" placeholder="Name" required></input>
+                    <input name="phone" type="number" className="form-control" placeholder="Phone" required></input>
+                    <input name="email" type="email" className="form-control" placeholder="Email" required></input>
+                    <textarea name="message" className="form-control" placeholder="How Can We Help?" row="4" required></textarea>
+                    <input type="submit" className="submit" value="SEND MESSAGE"></input>
+                </form>
+            </div>
+            
         </div>
     </div>
 );
