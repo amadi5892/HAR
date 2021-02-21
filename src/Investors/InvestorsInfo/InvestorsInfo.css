@@ -50,11 +50,12 @@
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 17px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .invest-btn:hover,
 .invest-btn:active {
     background-color: rgb(150,78,78);
+    color: white;
     cursor: pointer;
 }

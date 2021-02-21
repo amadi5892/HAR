@@ -4,6 +4,7 @@ import Home from './Home/Home';
 import Commitment from './Commitment/Commitment';
 import Services from './Services/Services';
 import Investors from './Investors/Investors';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Commitment />
       <Services />
       <Investors />
+      <Footer />
     </div>
   );
 }

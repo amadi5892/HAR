@@ -9,6 +9,6 @@
 
 .nav-item a:hover,
 .nav-item a:active {
-    color: red;
+    color: rgb(150, 78, 78);
     cursor: pointer;
 }
