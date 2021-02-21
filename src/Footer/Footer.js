@@ -12,6 +12,15 @@ const footer = (props) => (
                 <li className="contact-list">homeaffordablerealty@gmail.com</li>
             </ul>
         </div>
+        <div className="message-info">
+            <h3 className="contact-heading">Leave Us A Message</h3>
+            <form>
+                <input placeholder="Name"></input>
+                <input placeholder="Phone"></input>
+                <input placeholder="Email"></input>
+                <textarea placeholder="How Can We Help?"></textarea>
+            </form>
+        </div>
     </div>
 );
 

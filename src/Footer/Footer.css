@@ -4,12 +4,20 @@
     background-color: rgb(150,78,78);
     color:  rgb(172, 168, 168);
     padding-top: 60px;
+    display: flex;
+    flex-direction: row;
 }
 
 .contact-info {
     width: 620px;
     height: auto;
     margin-left: 310px;
+}
+
+.message-info {
+    width: 620px;
+    height: auto;
+    margin-left: 60px;
 }
 
 .contact-heading {
